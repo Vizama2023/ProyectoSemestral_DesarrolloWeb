@@ -11,6 +11,12 @@ html {
   
   body {
     font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg');/*  no se como agregarle su ruta por saque la img aparte */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2); /* Reducida opacidad */
     font-family: Arial, sans-serif;
   }
   /* Existe un header con un logo y un menu de navegación*/
