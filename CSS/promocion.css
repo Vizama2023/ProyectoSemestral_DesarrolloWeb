@@ -1,24 +1,25 @@
 .promocion{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
     background-color: crimson;
     height: 600px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
 }
 
-.promo-img{
-    width: 450px;
+.centrar{
+    margin-top: 200px;
 }
 
-.promo2{
-    position: absolute;
-    bottom: 100px;
+.pizza-promo{
+    width: 278px;
+    border-radius: 20px;
 }
 
-.promo3{
-    position: relative;
-    bottom: 250px;
+.promocion-txt{
+    margin: 0 auto;
 }
 
 .promocion-txt h3{
@@ -31,4 +32,10 @@
     font-size: 1.2em;
     color: aliceblue;
     font-weight: 500;
+}
+
+.centrar h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5em;
 }
