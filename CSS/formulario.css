@@ -1,0 +1,84 @@
+.center-form{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.envia-opinion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.envia-opinion img{
+    width: 400px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+    width: 500px;
+    height: 620px;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0px 2px 5px rgba(0 0 0 / .2);
+}
+
+.form-container label{
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.form-container input{
+    width: 75%;
+    padding: 1em;
+    border-radius: 10px;
+    background: rgb(240, 156, 0);
+    border: 3px solid crimson;
+}
+
+textarea{
+    background: none;
+    border-radius: 10px;
+    border: 3px solid crimson;
+}
+
+.enviar{
+    width: 50%;
+    padding: .5em 0;
+    background-color: crimson;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px rgba(0 0 0 / .5);
+}
+
+
+.envia-opinion h2{
+    font-size: 2.5em;
+}
+
+.envia-opinion img{
+    margin-top: 20px;
+}
+
+
+
+
+textarea{
+    resize: vertical;
+    max-height: 200px;
+}
