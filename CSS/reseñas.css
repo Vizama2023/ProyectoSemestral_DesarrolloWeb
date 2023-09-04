@@ -1,0 +1,51 @@
+.reseñas{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards-container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+    background: orange;
+}
+
+.card p{
+    margin: 20px 5px;
+}
+
+
+.image-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid crimson;
+}
+
+.reseñas-txt{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.reseñas-txt h2{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.calificar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

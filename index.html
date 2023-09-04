@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="CSS/promocion.css">
     <link rel="stylesheet" href="CSS/about_us.css">
     <link rel="stylesheet" href="CSS/formulario.css">
+    <link rel="stylesheet" href="CSS/reseñas.css">
+    <link rel="stylesheet" href="CSS/menu.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +60,58 @@
                 <img src="assets/pizza-steve.png" alt="pizza steve" class="steve">
             </figure>
         </section>
-
+        <section class="menu">
+            <h2>Nuestro Menú</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Tamaño</th>
+                            <th>Tamaño</th>
+                            <th>Tamaño</th>
+                            <th>Tamaño</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                            <td>Precio</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <style>
+            hr{
+                margin-top: 100px;
+            }
+        </style>
+        <hr>
         <section class="productos">
             <section class="search-container"> 
                 <div class="search">
@@ -155,24 +208,48 @@
         </div>
 
         <section class="reseñas">
-            <div>
-                <h2>Reseñas de nuestros Gatos usuarios</h2>
+            <div class="reseñas-txt">
+                <h2>¿Que dicen nuestros usuarios?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, impedit!</p>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, doloribus.</p>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="calificar">
+                        <figure class="image-card">
+                            <img src="assets/reseñas/saqen-python.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h2>Nombre</h2>
+                            <p>⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repudiandae!</p>
                 </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, doloribus.</p>
+                <div class="card">
+                    <div class="calificar">
+                        <figure class="image-card">
+                            <img src="assets/reseñas/profe_oriel.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h2>Nombre</h2>
+                            <p>⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repudiandae!</p>
                 </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, doloribus.</p>
+                <div class="card">
+                    <div class="calificar">
+                        <figure class="image-card">
+                            <img src="assets/reseñas/tututu.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h2>Nombre</h2>
+                            <p>⭐</p>
+                        </div>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repudiandae!</p>
                 </div>
             </div>
         </section>
@@ -226,7 +303,7 @@
                     <img src="assets/pizza-steve2.png" alt="pizza steve 2">
                 </div>
     
-                <div class="form">
+                <aside class="form">
                     <form class="form-container">
                         <label for="nombre">Ingrese su nombre</label>
                         <input type="text" id="nombre" placeholder="Ingrese su nombre">
@@ -235,11 +312,11 @@
                         <input type="email" id="email" placeholder="Ingrese su email">
     
                         <label for="texto">Ingrese su opinion</label>
-                        <textarea name="" id="" cols="50" rows="30"></textarea>
+                        <textarea id="texto" name="" id="" cols="50" rows="30"></textarea>
     
                         <button class="enviar">Enviar</button>
                     </form>
-                </div>
+                </aside>
             </section>
         </div>
     </main>
