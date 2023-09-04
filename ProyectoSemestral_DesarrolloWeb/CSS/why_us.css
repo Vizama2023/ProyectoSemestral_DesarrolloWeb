@@ -1,0 +1,45 @@
+.ilustration img{
+    width: 250px;
+}
+
+.why-us h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    padding: 10px 0;
+}
+
+.why-us-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 100px;
+    margin: 0 auto;
+    padding: 40px 100px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0 0 0 / .5);
+}
+
+.ilustration{
+    margin: 0 auto;
+}
+
+.why-us-txt{
+    margin: auto;
+
+}
+
+.why-us-txt h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.why-us-txt p{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgba(240, 156, 0, 0.988);
+    padding: 10px;
+    border-radius: 10px;
+}
