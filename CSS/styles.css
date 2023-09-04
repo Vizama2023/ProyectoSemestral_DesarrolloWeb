@@ -1,44 +1,44 @@
+/* Establece reglas para todos los elementos en la página */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
+/* Establece estilo para el cuerpo (body) de la página */
 body{
     font-family: grandstander;
     background-color: antiquewhite;
 }
-
+/* Establece estilos para el encabezado (header) de la página */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(21, 38, 69);
 }
-
+/* Estilos para la clase .titulo */
 .titulo{
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px 0;
-
 }
+/* Estilos para las imágenes dentro de titulo */
 
 .titulo figure img{
     width: 90px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px rgba(0 0 0 / .5);
 }
+/* Estilos para el encabezado (h1) dentro de .titulo */
 
 .titulo h1{
     font-size: 3.2em;
     margin-left: 20px;
     color: aliceblue;
 }
-
+/* Estilos para la clase .sesion */
 .sesion{
     width: 15%;
 }
