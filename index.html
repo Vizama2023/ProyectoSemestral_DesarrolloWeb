@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/formulario.css">
     <link rel="stylesheet" href="CSS/reseñas.css">
     <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,19 +31,19 @@
         </div>
     </header>
     <nav>
-        <section class="nav-container">
-            <div class="part1">
-                <a href="">Home</a>
-                <a href="">Productos</a>
-            </div>
+        <div class="nav-container">
+            <ul class="part1">
+                <li><a href="">Home</a></li>
+                <li><a href="">Productos</a></li>
+            </ul>
             <figure class="icon-pizza">
                 <img src="icons/pizza-icon.png" alt="icono de una pizza">
             </figure>
-            <div class="part2">
-                <a href="">Sobre Nosotros</a>
-                <a href="">Contacto</a>
-            </div>
-        </section>
+            <ul class="part2">
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
     </nav>
 
 
@@ -106,19 +107,13 @@
                 </table>
             </div>
         </section>
-        <style>
-            hr{
-                margin-top: 100px;
-            }
-        </style>
-        <hr>
         <section class="productos">
-            <section class="search-container"> 
+            <div class="search-container"> 
                 <div class="search">
                     <input type="text" class="barra" placeholder="Buscar Producto">
                     <img src="/icons/search.png" alt="" class="barra-search">
                 </div>
-            </section>
+            </div>
 
             <div class="texto">
                 <h2>Nuestros Pizzas más recientes</h2>
@@ -312,7 +307,7 @@
                         <input type="email" id="email" placeholder="Ingrese su email">
     
                         <label for="texto">Ingrese su opinion</label>
-                        <textarea id="texto" name="" id="" cols="50" rows="30"></textarea>
+                        <textarea id="texto" cols="50" rows="30"></textarea>
     
                         <button class="enviar">Enviar</button>
                     </form>
@@ -320,20 +315,30 @@
             </section>
         </div>
     </main>
-    <footer>
-        <h3>Follow Us</h3>
+    <footer><br>
+        <h3>Síguenos en nuestras redes sociales</h3>
         <div class="icons">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+            <div class="social">
+                <img src="icons/whatsapp.png" alt="whatsapp"> 
+                
+                <div>
+                    <p>+56 9 6738 9961</p>
+                    <hr class="separa">
+                    <p>+56 9 2314 8765</p>
+                </div>
+            </div>
+            <div class="social">
+                <img src="icons/facebook.png" alt="facebook">
+                <p>Steve's Pizza</p>
+            </div>
+            <div class="social">
+                <img src="icons/instagram.png" alt="instagram">
+                <p>@Steve's Pizza</p>
+            </div>
+            
+        </div><br>
 
-        <div class="legal-container">
-            <p>&copy; Derechos reservados a Anonymus</p>
-
-            <p>+56 9 545 545 4554</p>
-            <p>+56 67 767 6765545</p>
-        </div>
+        <p id="legal">&copy; Derechos reservados a Steve's Pizza 2023 </p>
     </footer>
 </body>
 </html>
